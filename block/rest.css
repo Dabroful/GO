@@ -1,0 +1,51 @@
+.rest {
+  padding: 50px 0;
+}
+
+.rest__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0 160px 40px 160px;
+  text-align: center;
+}
+
+.rest__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.rest__item {
+  transition: transform 0.5s ease;
+}
+
+.rest__item:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.rest__content {
+  position: relative;
+}
+
+.rest__text {
+  position: absolute;
+  left: 40px;
+  top: 166px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.rest__item:nth-child(2) {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.rest__item:nth-child(2n + 4) {
+  margin-top: -70px;
+}
+
+

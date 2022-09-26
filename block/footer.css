@@ -1,0 +1,9 @@
+.footer {
+  padding-bottom: 30px;
+  padding-top: 50px;
+  background: linear-gradient(#1B1A1B, #370A37);
+}
+
+.footer__title {
+  margin-bottom: 54px;
+}

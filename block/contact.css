@@ -1,0 +1,94 @@
+.contact {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-FFFFFF);
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+
+.contact__item_location {
+  background-image: url("../img/location.svg");
+  background-position: left;
+}
+
+.contact__item_phone {
+  background-image: url("../img/phone.svg");
+}
+
+.contact__item_email {
+  background-image: url("../img/mail.svg");
+}
+
+.contact__street {
+  margin-top: 58px;
+  margin-bottom: 38px;
+}
+
+.contact__phone, .contact__email {
+  max-width: 380px;
+  text-decoration: none;
+  color: var(--color-FFFFFF);
+  outline: 1px solid transparent;
+  transition: color 0.3s linear, outline-color 0.3s linear;
+}
+
+.contact__phone:hover{
+  color: var(--color-EADEED);
+}
+
+.contact__phone:active{
+  color: var(--color-CD06FF)
+}
+
+.contact__phone:focus{
+  outline-color: var(--color-CD06FF)
+}
+
+
+.contact__email {
+  text-decoration: none;
+  color: var(--color-FFFFFF)
+}
+
+.contact__email:hover{
+  color: var(--color-EADEED)
+}
+
+.contact__email:active{
+  color: var(--color-CD06FF);
+}
+
+.contact__email:focus{
+  outline-color: var(--color-CD06FF);
+}
+
+.container-img {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.contact__map {
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  transition: transform 0.25s linear;
+}
+
+.contact__map:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+

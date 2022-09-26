@@ -1,0 +1,25 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contacts__text-link {
+  outline: 1px solid transparent;
+  transition: color 0.3s linear, outline-color 0.3s linear;
+}
+
+
+.contacts__text-link:hover {
+  color: var(--color-EADEED);
+}
+
+.contacts__text-link:active {
+  color: var(--color-CD06FF);
+}
+
+.contacts__text-link:focus {
+  outline-color: var(--color-CD06FF);
+}

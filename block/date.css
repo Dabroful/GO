@@ -1,0 +1,146 @@
+.date {
+  padding: 0;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.date__legend {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.date__flexbox {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.date__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.date__flex1 {
+  display: flex;
+  gap: 32px;
+  margin-top: 15px;
+  margin-bottom: 53px;
+
+}
+
+.date__text {
+  position: relative;
+}
+
+.date__label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.date__input {
+  display: block;
+  width: 134px;
+  min-height: 52px;
+  padding: 12px 0 12px 20px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: left;
+  color: #212529;
+  background-color: var(--color-FFFFFF);
+  background-clip: padding-box;
+  outline: 2px solid transparent;
+  transition: outline 0.5s linear;
+}
+
+.date__input:focus {
+  outline: 2px solid var(--color-CD06FF);
+}
+
+.date__input-placeholder::placeholder{
+  color: var(--color-1C1A1A);
+}
+
+.date__arrow:after {
+  content: '';
+  background-image: url("../img/arrow.svg");
+  position: absolute;
+  display: inline-block;
+  min-width: 21px;
+  min-height: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 90px;
+  top: 18px;
+}
+
+.date__arrow-human:after {
+  left: 256px;
+}
+
+
+.date__input-human {
+  width: 300px;
+}
+
+.date__input-name {
+  width: 280px;
+}
+
+.date__input-firstname {
+  width: 280px;
+}
+
+.date__input-email {
+  width: 300px;
+}
+
+.date__flex-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-right: 100px;
+}
+
+.date__btn {
+  background-color: var(--color-FFFFFF);
+  border-radius: 10px;
+  min-width: 300px;
+  min-height: 60px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #6C0287;
+  border: 2px solid transparent;
+  padding: 16px 48px;
+  transition: background-color 0.3s linear, border 0.3s ease;
+}
+
+.date__btn:hover {
+  background-color: var(--color-EADEED);
+  border: 2px solid var(--color-6C0287);
+  color: var(--color-6C0287);
+}
+
+.date__btn:focus {
+  background-color: #ffffff;
+  border: 2px solid var(--color-6C0287);
+  color: var(--color-6C0287);
+}
+
+.date__btn:active {
+  background-color: var(--color-EADEED);
+  border: 2px solid var(--color-EADEED);
+
+}
+
+
+
